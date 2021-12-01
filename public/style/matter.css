@@ -1,0 +1,12 @@
+.subject-matter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 40rem;
+}
+
+a .button {
+    width: 22rem;
+    height: 15rem;
+}

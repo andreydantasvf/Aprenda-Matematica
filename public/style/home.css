@@ -1,0 +1,11 @@
+#home {
+    text-align: center;
+}
+
+#highscore-button {
+    background: #FFC857;
+}
+
+#highscore-button:hover {
+    box-shadow: 0 .4rem 1.4rem 0 rgb(255, 255, 0, .5 );
+}
