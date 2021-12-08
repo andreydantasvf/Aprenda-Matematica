@@ -198,7 +198,7 @@ let matterId = window.localStorage.getItem('matterId');
                         "answer": 1
                     },
                     {
-                        "question": "Qual o valor da soma: 67-18-32?",
+                        "question": "Qual o valor da subtração: 67-18-32?",
                         "choice1": "18",
                         "choice2": "27",
                         "choice3": "16",
