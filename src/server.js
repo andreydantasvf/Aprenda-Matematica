@@ -13,9 +13,6 @@ app
 .get("/", function (req, res) {
     res.render("index")
 })
-.get("/matter", function (req, res) {
-    res.render("matter")
-})
 .get("/highscores", function (req, res) {
     res.render("highscores")
 })
