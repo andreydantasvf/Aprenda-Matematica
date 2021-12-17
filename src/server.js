@@ -1,4 +1,7 @@
 const express = require('express')
+const route = require('./route')
+const path = require('path')
+
 const app = express()
 
 // Utilizando os arquivos estaticos
@@ -6,23 +9,10 @@ app.use('/public', express.static('public'))
 
 // Configurando o template engine
 app.set("view engine", "ejs")
-app.set("views", "./src/views")
+app.set("views", path.join(__dirname, "views"))
 
-// Criando Rotas
-app
-.get("/", function (req, res) {
-    res.render("index")
-})
-.get("/highscores", function (req, res) {
-    res.render("highscores")
-})
-.get("/game", function (req, res) {
-    res.render("game")
-})
-.get("/end", function (req, res) {
-    res.render("end")
-})
+// Pegando as rotas da aplicação
+app.use(route)
 
 // Ligando o Servidor
-app.listen(8080)
-console.log("Rodando o Servidor Em: localhost:8080")
+app.listen(8080, () => console.log("Rodando o Servidor Em: localhost:8080"))
