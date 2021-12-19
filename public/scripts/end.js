@@ -2,42 +2,18 @@
 const username = document.querySelector('#username')
 const saveScoreButton = document.querySelector('#saveScoreButton')
 const finalScore = document.querySelector('#finalScore')
+const score = document.querySelector('#userScore')
+
 // pegando a pontuação que foi salva no localStorage no game.js
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 
-// pegando as pontuações que já estão no localStorage
-const highScores = JSON.parse(localStorage.getItem('highScores')) || []
+// Inserindo o score do player no input do form end.html
+score.value = mostRecentScore
 
-const MAX_HIGH_SCORES = 5
-
+// Iserindo o score do player no layout do end.html
 finalScore.innerText = mostRecentScore
 
 // liberando o botão salvar ao digitar no campo do nome
 username.addEventListener('keyup', () => {
     saveScoreButton.disabled = !username.value
 })
-
-
-// salvando a pontuação em JSON
-saveHighScore = e => {
-    e.preventDefault()
-
-    const score = {
-        score: mostRecentScore,
-        name: username.value
-    }
-
-    // adicionando o nome e a pontuação na variavel highScores
-    highScores.push(score)
-
-    // fazendo a comparação das pontuações
-    highScores.sort((a,b) => {
-        return b.score - a.score
-    })
-    
-    highScores.splice(5)
-
-    // enviando o Json com as pontuações para o LocalStorage
-    localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/')
-}

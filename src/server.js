@@ -11,6 +11,8 @@ app.use('/public', express.static('public'))
 app.set("view engine", "ejs")
 app.set("views", path.join(__dirname, "views"))
 
+app.use(express.urlencoded({extended: true}))
+
 // Pegando as rotas da aplicação
 app.use(route)
 
