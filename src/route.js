@@ -8,6 +8,9 @@ route
 .get("/", function (req, res) {
     res.render("index")
 })
+.get("/matter", function (req, res) {
+    res.render("matter")
+})
 .get("/game", function (req, res) {
     res.render("game")
 })
