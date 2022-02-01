@@ -4,6 +4,14 @@ const saveScoreButton = document.querySelector('#saveScoreButton')
 const finalScore = document.querySelector('#finalScore')
 const score = document.querySelector('#userScore')
 
+// teste
+const feedbackButton = document.querySelector('#feedback')
+const feedbackQuestions = JSON.parse(localStorage.getItem('feedbackQuestions'))
+
+feedbackButton.addEventListener('click', () => {
+    console.log(feedbackQuestions)
+})
+
 // pegando a pontuação que foi salva no localStorage no game.js
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 

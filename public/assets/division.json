@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Qual o valor da divisão: 15/3?",
+        "choice1": "7",
+        "choice2": "6",
+        "choice3": "5",
+        "choice4": "4",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Qual o valor da divisão: 16/4?",
+        "choice1": "8",
+        "choice2": "4",
+        "choice3": "6",
+        "choice4": "3",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 2
+    },
+    {
+        "question": "Qual o valor da divisão: 28/7?",
+        "choice1": "7",
+        "choice2": "4",
+        "choice3": "3",
+        "choice4": "5",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 2
+    },
+    {
+        "question": "Quanto é 54/9?",
+        "choice1": "5",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "6",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 4
+    },
+    {
+        "question": "Quanto é 84/3?",
+        "choice1": "24",
+        "choice2": "26",
+        "choice3": "27",
+        "choice4": "38",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 5
+    },
+    {
+        "question": "Quanto é 65/5?",
+        "choice1": "11",
+        "choice2": "12",
+        "choice3": "13",
+        "choice4": "14",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Quanto vale 56/7?",
+        "choice1": "6",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "7",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 2
+    },
+    {
+        "question": "Quanto vale 63/3?",
+        "choice1": "21",
+        "choice2": "23",
+        "choice3": "25",
+        "choice4": "27",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 1
+    },
+    {
+        "question": "Quanto vale 18/9?",
+        "choice1": "9",
+        "choice2": "3",
+        "choice3": "2",
+        "choice4": "10",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Qual o valor da divisão: 72/3/2?",
+        "choice1": "24",
+        "choice2": "12",
+        "choice3": "48",
+        "choice4": "16",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 2
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Qual o valor da multiplicação: 3x7?",
+        "choice1": "10",
+        "choice2": "19",
+        "choice3": "21",
+        "choice4": "23",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Qual o valor da multiplicação: 7x5?",
+        "choice1": "27",
+        "choice2": "25",
+        "choice3": "37",
+        "choice4": "35",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 4
+    },
+    {
+        "question": "Qual o valor da multiplicação: 9x6?",
+        "choice1": "56",
+        "choice2": "54",
+        "choice3": "60",
+        "choice4": "64",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 2
+    },
+    {
+        "question": "Quanto é 2x13?",
+        "choice1": "26",
+        "choice2": "23",
+        "choice3": "24",
+        "choice4": "36",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 1
+    },
+    {
+        "question": "Quanto é 7x11?",
+        "choice1": "70",
+        "choice2": "73",
+        "choice3": "77",
+        "choice4": "76",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Quanto é 13x5?",
+        "choice1": "60",
+        "choice2": "55",
+        "choice3": "50",
+        "choice4": "70",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 5
+    },
+    {
+        "question": "Quanto vale 12x12?",
+        "choice1": "124",
+        "choice2": "134",
+        "choice3": "144",
+        "choice4": "154",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Quanto vale 7x8?",
+        "choice1": "66",
+        "choice2": "54",
+        "choice3": "56",
+        "choice4": "34",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 3
+    },
+    {
+        "question": "Quanto vale 17x3?",
+        "choice1": "31",
+        "choice2": "43",
+        "choice3": "57",
+        "choice4": "51",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 4
+    },
+    {
+        "question": "Qual o valor da multiplicação: 7x7x3?",
+        "choice1": "143",
+        "choice2": "157",
+        "choice3": "149",
+        "choice4": "159",
+        "choice5": "Nenhuma Das Alternativas",
+        "answer": 5
+    }
+]
