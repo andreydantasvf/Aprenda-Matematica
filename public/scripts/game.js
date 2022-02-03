@@ -91,9 +91,9 @@ choices.forEach((choice) => {
 
     // Adicionando à variavel de gabarito de questoes as respostas do player e corretas
     feedbackQuestions.push({
-      question: currentQuestion.question,
+      titleQuestion: currentQuestion.question,
       answerPlayer: currentQuestion[`choice${selectedAnswer}`],
-      answeCorrect: currentQuestion[`choice${currentQuestion.answer}`]
+      answerCorrect: currentQuestion[`choice${currentQuestion.answer}`]
     })
 
     // verificando se foi a alternativa correta

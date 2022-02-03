@@ -96,3 +96,14 @@ body {
         height: 10rem;
     }
 }
+
+@media (max-height: 700px) {
+    h1 {
+        font-size: 3.4rem;
+        margin-bottom: 2rem;
+    }
+
+    #hud {
+        height: 10rem;
+    }
+}
