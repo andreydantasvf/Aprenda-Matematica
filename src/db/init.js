@@ -8,6 +8,7 @@ const initDb = {
         await db.exec(`CREATE TABLE users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
+            matter TEXT,
             highscore INTEGER
         )`);
 

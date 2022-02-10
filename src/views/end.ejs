@@ -17,6 +17,7 @@
             <form action="/create-user" method="POST" class="end-form-container">
                 <h2 id="end-text">Digite seu nome abaixo para salvar sua pontuação!</h2>
                 <input type="hidden" name="score" id="userScore" value="">
+                <input type="hidden" name="matter" id="userMatter" value="">
                 <input type="text" name="name" id="username" placeholder="Digite seu nome" autocomplete="off">
                 <button class="button" id="saveScoreButton" type="submit" onclick="saveHighScore(event)" disabled>Salvar</button>
             </form>

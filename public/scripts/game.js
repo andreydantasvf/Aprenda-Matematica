@@ -1,6 +1,7 @@
 // pegando as informoções do html
 const question = document.querySelector("#question");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
+const choicesContainer = Array.from(document.querySelectorAll(".choice-container"));
 const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector("#score");
 const progressBarFull = document.querySelector("#progressBarFull");
@@ -77,7 +78,7 @@ getNewQuestion = () => {
   acceptingAnswers = true;
 };
 
-choices.forEach((choice) => {
+choicesContainer.forEach((choice) => {
   choice.addEventListener("click", (e) => {
     if (!acceptingAnswers) return;
 

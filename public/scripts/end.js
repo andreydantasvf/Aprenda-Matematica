@@ -3,6 +3,7 @@ const username = document.querySelector('#username')
 const saveScoreButton = document.querySelector('#saveScoreButton')
 const finalScore = document.querySelector('#finalScore')
 const score = document.querySelector('#userScore')
+const matter = document.querySelector('#userMatter')
 const openModalButton = document.querySelector('#feedback')
 const modalFeedback = document.querySelector('.modal-feedback')
 const closeModalButton = document.querySelector('#modal-close')
@@ -47,8 +48,14 @@ closeModalButton.addEventListener('click', () => {
 // pegando a pontuação que foi salva no localStorage no game.js
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 
+// Pegando a materia que foi salva no localStorage no matter.js
+const matterPlayer = localStorage.getItem('matterNamePt')
+
 // Inserindo o score do player no input do form end.html
 score.value = mostRecentScore
+
+// Inserindo a materia do player no input do form end.html
+matter.value = matterPlayer
 
 // Iserindo o score do player no layout do end.html
 finalScore.innerText = mostRecentScore

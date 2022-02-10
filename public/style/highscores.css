@@ -5,7 +5,7 @@ body{
 #highScoresList {
     list-style: none;
     margin-bottom: 4rem;
-    height: 50vh;
+    max-height: 50vh;
     overflow-y: auto;
 }
 
